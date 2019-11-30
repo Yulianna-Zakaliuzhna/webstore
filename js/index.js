@@ -104,3 +104,5 @@ function renderProducts(arr) {
 function toggleLayoutView() {
   document.getElementById('products').classList.toggle('grid-view'), event => toggleLayoutView()
 }
+
+renderProducts(products);
