@@ -73,7 +73,7 @@ function getProductsAsHtmlString(products) {
 
  return `<div class= "wrapper-content" >   
         <a>
-           <img class="product-image top" src="${product.logo}" alt="${product.name}">
+           <img class="product-image top" src="${products.logo}" alt="${products.name}">
         </a>
           <ul class="product">
             <li class="item-name content-container"> ${products.name} </li>
@@ -87,7 +87,7 @@ function getProductsAsHtmlString(products) {
 }
 
 
-function renderCourses(arr) {
+function renderProducts(arr) {
 
   //* 1. map() Array to a new Array
   const arrOfHtml = arr.map(getProductsAsHtmlString);
