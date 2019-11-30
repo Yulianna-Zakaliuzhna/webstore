@@ -1,92 +1,107 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Dinnerware</title>
-    <meta name="description" content="A short description">
-    <meta name="author" content="Yulianna Zakaliuzhna">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
+<head>
+  <meta charset="utf-8">
+  <title>Dinnerware</title>
+  <meta name="description" content="A short description">
+  <meta name="author" content="Yulianna Zakaliuzhna">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
-  </head>
-  <body>
-    
-    <header id="header" class="site-header" role="banner" >
-      <div>
-        <ul class="banner ">
-          <li class="content-container"><i class="material-icons menu">dehaze</i></li>
-          <li class="content-container"><h1 class="logo">local pottery</h1></li>
-          <li class="content-container"><i class="material-icons favorite">favorite_border</i></li>
-          <li class="content-container"><i class="material-icons cart">shopping_cart</i></li>
-        </ul>
-      </div>
-    </header>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
-    <div class="search">
-      <form>
-        <fieldset class="search-button">  
-          <input type="text" name="search" id="search">
-        </fieldset>
-       <ul>
-        <li>
-            <button class="search-button" type="button"><i class="material-icons">search</i></button>
+</head>
+
+<body>
+
+  <header id="header" class="site-header" role="banner">
+    <div>
+      <ul class="banner ">
+        <li class="content-container"><i class="material-icons menu">dehaze</i></li>
+        <li class="content-container">
+          <h1 class="logo">local pottery</h1>
+        </li>
+        <li class="content-container"><i class="material-icons favorite">favorite_border</i></li>
+        <li class="content-container"><span id="cartNum"></span><i class="material-icons cart">shopping_cart</i>
         </li>
       </ul>
-      </form>
-  </div>
-    <div class="filter-navigation" ><i class="material-icons pages">arrow_back</i>
-    <div class="reset"><p>Reset</p></div></div>
+    </div>
+  </header>
 
-      <!-- <div class="filter-heading"><p>Show Me:</p></div>
-      -->
-      <div class="wrapper">
-
-      <ul class=" hs">
-        <li class="item"><button type="button" class="button  button-categories"><i class="material-icons menu">room_service</button></i>Dinnerware</li>
-        <li class="item"><button type="button" class="button button-categories"><i class="material-icons menu">cake</button></i>Serveware</li>
-        <li class="item"><button type="button" class="button button-categories"><i class="material-icons menu">local_bar</button></i>Barware</li>
-        <li class="item"><button type="button" class="button button-categories"><i class="material-icons menu">local_cafe</button></i>Drinkware</li>
-        <li class="item"><button type="button" class="button button-categories"><i class="material-icons menu">local_dining</button></i>Kitchen</li>
-        <li class="item"><button type="button" class="button button-categories"><i class="material-icons menu">local_offer</button></i>Sale</li>
-
-
+  <div class="search">
+    <form>
+      <fieldset class="search-button">
+        <input type="text" name="search" id="search">
+      </fieldset>
+      <ul>
+        <li>
+          <button class="search-button" type="button"><i class="material-icons">search</i></button>
+        </li>
       </ul>
-  
-      </div>
-          
-        
+    </form>
+  </div>
+  <div class="filter-navigation"><i class="material-icons pages">arrow_back</i>
+    <div class="reset">
+      <p>Reset</p>
+    </div>
+  </div>
 
-        <!--<div class="filter-heading"><p>That Are:</p></div> -->
-        <div class="fieldset">
-          <button type="button" class="button filter">Set</button>
-          <button type="button" class="button filter">Unit</button>
-          <button type="button" class="button filter">Both</button>
-        </div>
-        <div class="fieldset">
-          <button type="button" class="button filter">Colour</button>
-          <button type="button" class="button filter">Pattern</button>
-          <button type="button" class="button filter">Both</button>
-        </div>
+  <!-- <div class="filter-heading"><p>Show Me:</p></div>
+      -->
+  <div class="wrapper">
+
+    <ul class=" hs">
+      <li class="item"><button type="button" class="button  button-categories"><i
+            class="material-icons menu">room_service</button></i>Dinnerware</li>
+      <li class="item"><button type="button" class="button button-categories"><i
+            class="material-icons menu">cake</button></i>Serveware</li>
+      <li class="item"><button type="button" class="button button-categories"><i
+            class="material-icons menu">local_bar</button></i>Barware</li>
+      <li class="item"><button type="button" class="button button-categories"><i
+            class="material-icons menu">local_cafe</button></i>Drinkware</li>
+      <li class="item"><button type="button" class="button button-categories"><i
+            class="material-icons menu">local_dining</button></i>Kitchen</li>
+      <li class="item"><button type="button" class="button button-categories"><i
+            class="material-icons menu">local_offer</button></i>Sale</li>
 
 
-        <!--<div class="filter-heading"><p>In This Price Range:</p></div> -->
+    </ul>
 
-        <div class="slidecontainer">
-          <span>$1</span>
-          <input type="range" min="1" max="1000" value="70" class="slider" id="myRange">
-          <span>$500</span>
-        </div>
-        <div class="slidecontainer">
-          <span>$500</span>
-          <input type="range" min="1" max="1000" value="590" class="slider" id="myRange">
-          <span>$1000</span>
-        </div>
-<!-- Search for a product (non-functional) -->
+  </div>
+
+
+
+  <!--<div class="filter-heading"><p>That Are:</p></div> -->
+  <div class="fieldset">
+    <button type="button" class="button filter">Set</button>
+    <button type="button" class="button filter">Unit</button>
+    <button type="button" class="button filter">Both</button>
+  </div>
+  <div class="fieldset">
+    <button type="button" class="button filter">Colour</button>
+    <button type="button" class="button filter">Pattern</button>
+    <button type="button" class="button filter">Both</button>
+  </div>
+
+
+  <!--<div class="filter-heading"><p>In This Price Range:</p></div> -->
+
+  <div class="slidecontainer">
+    <span>$1</span>
+    <input type="range" min="1" max="1000" value="70" class="slider" id="myRange">
+    <span>$500</span>
+  </div>
+  <div class="slidecontainer">
+    <span>$500</span>
+    <input type="range" min="1" max="1000" value="590" class="slider" id="myRange">
+    <span>$1000</span>
+  </div>
+  <!-- Search for a product (non-functional) -->
 
 
 
@@ -94,133 +109,135 @@
 
   <main id="page" class="site-page" role="main">
 
-        <!-- Filter button
+    <!-- Filter button
         Dropdown menu, 
        (Colour, Pattern, Price, Set/Unit, Sale, New in)
        pages #, navigation
         -->
-       <div class="display-flex results">
-          <p>Results for "Dinnerware"</p>              
-        <span class="pages">
-          <i class="arrow left"></i>
-          <i class="arrow right"></i>
-        </span>  
-        </div>
-        <div id="products"></div>  
-  <!--
-  Product 1
+    <div class="display-flex results">
+      <p>Results for "Dinnerware"</p>
+      <span class="pages">
+        <i class="arrow left"></i>
+        <i class="arrow right"></i>
+      </span>
+    </div>
+    <div id="products">
+
       <div class="wrapper-content">
         <a> <img class="product-image top" src="img/product-1.jpg" alt="Kaloh Dinnerware Set - Turquoise">
 
         </a>
-          <ul class="product">
-            <li class="item-name content-container">Kaloh Dinnerware Set - Turquoise</li>
-            <li class="price "><del>$56.00</del> </li>
-            <li class="special">Special<ins >$44.00</ins></li>
-          </ul>
+        <ul class="product">
+          <li class="item-name content-container">Kaloh Dinnerware Set - Turquoise</li>
+          <li class="price "><del>$56.00</del> </li>
+          <li class="special">Special<ins>$44.00</ins></li>
+        </ul>
       </div>
-        Product 2 
+
       <div class="wrapper-content">
         <a> <img class="product-image" src="img/product-2.jpg" alt="Pastel Speckle Salad Plates (Set Of 4)">
 
         </a>
-          <ul class="product">
-            <li class="item-name">Pastel Speckle Salad Plates (Set Of 4)</li>
-            <li class="price">$62.00</li>
-            <li class="new">New</li>
-          </ul>
+        <ul class="product">
+          <li class="item-name">Pastel Speckle Salad Plates (Set Of 4)</li>
+          <li class="price">$62.00</li>
+          <li class="new">New</li>
+        </ul>
       </div>
-         Product 3
+
       <div class="wrapper-content">
         <a> <img class="product-image" src="img/product-3.jpg" alt="Kaloh Dinnerware Set - Turquoise">
 
         </a>
-          <ul class="product">
-            <li class="item-name">Kaloh Dinnerware Set - Turquoise</li>
-            <li class="price"><del>$56.00</del> </li>
-            <li class="special">Special<ins >$44.00</ins></li>
-          </ul>
+        <ul class="product">
+          <li class="item-name">Kaloh Dinnerware Set - Turquoise</li>
+          <li class="price"><del>$56.00</del> </li>
+          <li class="special">Special<ins>$44.00</ins></li>
+        </ul>
       </div>
-           Product 4
+
       <div class="wrapper-content">
         <a> <img class="product-image" src="img/product-4.jpg" alt="Reactive Glaze Dinnerware Set - Bronze">
 
         </a>
-        
+
         <ul class="product">
-            <li class="item-name">Reactive Glaze Dinnerware Set - Bronze</li>
-            <li class="price"><del>$56.00</del> </li>
-            <li class="special">Special<ins >$44.00</ins></li>
+          <li class="item-name">Reactive Glaze Dinnerware Set - Bronze</li>
+          <li class="price"><del>$56.00</del> </li>
+          <li class="special">Special<ins>$44.00</ins></li>
         </ul>
-      </div>    
-        <!-- Product 5 
+      </div>
+
       <div class="wrapper-content">
         <a> <img class="product-image" src="img/product-5.jpg" alt="40-Piece Gold Tableware Starter Set">
         </a>
-          <ul class="product">
-            <li class="item-name">40-Piece Gold Tableware Starter Set</li>
-            <li class="price"><del>$56.00</del> </li>
-            <li class="special">Special<ins >$44.00</ins></li>
-          </ul>
+        <ul class="product">
+          <li class="item-name">40-Piece Gold Tableware Starter Set</li>
+          <li class="price"><del>$56.00</del> </li>
+          <li class="special">Special<ins>$44.00</ins></li>
+        </ul>
       </div>
-        <!-- Product 6 
+
       <div class="wrapper-content">
         <a> <img class="product-image" src="img/product-6.jpg" alt="Square Dinnerware (Set Of 4)">
         </a>
-          <ul class="product">
-            <li class="item-name">Square Dinnerware (Set Of 4)</li>
-            <li class="price"><del>$24.00</del> </li>
-            <li class="special">Special<ins >$14.99</ins></li>
-          </ul>
-      </div> -->
-        
-          <div class="display-flex">
-                          
-            <span class="pages">
-              <i class="arrow left"></i>
-              <i class="arrow right"></i>
-            </span>  
-            </div>
-            
+        <ul class="product">
+          <li class="item-name">Square Dinnerware (Set Of 4)</li>
+          <li class="price"><del>$24.00</del> </li>
+          <li class="special">Special<ins>$14.99</ins></li>
+        </ul>
+      </div>
+    </div>
+    <div class="display-flex">
+
+      <span class="pages">
+        <i class="arrow left"></i>
+        <i class="arrow right"></i>
+      </span>
+    </div>
+
   </main>
 
   <footer class="bottom-info site-page" id="footer" role="contentinfo">
 
-<!--linked pages: Contact, About, Blog-->
+    <!--linked pages: Contact, About, Blog-->
 
-      <div class="grouped">
-          <div class="display-flex additional-info">
-            <span>About Us</span>
-            <div class="plus-sign" >+</div> 
-          </div>
-
-          <div class="display-flex additional-info">
-            <span>Contact Us</span>
-            <div class="plus-sign" >+</div> 
-          </div>
-          <div class="display-flex additional-info">
-             <span>Blog</span>
-          <div class="plus-sign" >+</div> 
-          </div>
+    <div class="grouped">
+      <div class="display-flex additional-info">
+        <span>About Us</span>
+        <div class="plus-sign">+</div>
       </div>
 
-          <div class="copyright">
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a>
-          </div>
-              
-          <div class="copyright"><p>&copy; Copyright 1986. Local pottery.</p></div>
+      <div class="display-flex additional-info">
+        <span>Contact Us</span>
+        <div class="plus-sign">+</div>
+      </div>
+      <div class="display-flex additional-info">
+        <span>Blog</span>
+        <div class="plus-sign">+</div>
+      </div>
+    </div>
 
-          <div class="copyright bottom-row">
-            <p class="inline" href="#">Terms of Use</p> 
-            <p class="inline"href="#">Privacy Policy</p>
-            <p class="inline" href="#">Accessibility Policy</p>
-          </div>
+    <div class="copyright">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
 
-  </footer> 
+    <div class="copyright">
+      <p>&copy; Copyright 1986. Local pottery.</p>
+    </div>
+
+    <div class="copyright bottom-row">
+      <p class="inline" href="#">Terms of Use</p>
+      <p class="inline" href="#">Privacy Policy</p>
+      <p class="inline" href="#">Accessibility Policy</p>
+    </div>
+
+  </footer>
 
 
   <script src="js/index.js"></script>
-  </body>
+</body>
+
 </html>
