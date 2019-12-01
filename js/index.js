@@ -27,7 +27,7 @@ const products = [
   },
   {
     id: 3,
-    name: `3D Visualization`,
+    name: `Reactive Glaze Dinnerware Set - Bronze`,
     code: `DNR03`,
     unitsInStock: 78,
     price: 56,
@@ -40,7 +40,7 @@ const products = [
   },
   {
     id: 4,
-    name: `3D Visualization`,
+    name: `40-Piece Gold Tableware Starter Set`,
     code: `DNR04`,
     unitsInStock: 78,
     price: 56,
@@ -53,7 +53,7 @@ const products = [
   },
   {
     id: 5,
-    name: `3D Visualization`,
+    name: `Square Dinnerware (Set Of 4)`,
     code: `DNR05`,
     unitsInStock: 78,
     price: 56,
