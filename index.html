@@ -45,16 +45,32 @@
       </ul>
     </form>
   </div>
-  <div class="filter-navigation"><i class="material-icons pages">arrow_back</i>
-    <div class="reset">
-      <p>Reset</p>
+  <div class="sort-filter">
+    <form class="sort">
+      <fieldset>
+        <select name="sort" id="sort">
+          <option selected="selected">Sort</option>
+          <option value="price-high">Price: highest to lowest</option>
+          <option value="price-lo">Price: lowest to highest</option>
+          <option value="mew">New</option>
+          <option value="onSale">On sale</option>
+        </select>
+      </fieldset>
+    </form>
+        <div class="reset">
+          <p><i class="arrow down"></i></p>
+          <select name="filter menu" id="filter menu">
+              <option selected="selected"></option>
+              <option value="sold in unit">sold in units</option>
+
+            </select>
+        </div>
     </div>
-  </div>
 
   <!-- <div class="filter-heading"><p>Show Me:</p></div>
       -->
   <div class="wrapper">
-
+  <!--categories-->
     <ul class=" hs">
       <li class="item"><button type="button" class="button  button-categories"><i
             class="material-icons menu">room_service</button></i>Dinnerware</li>
@@ -73,19 +89,9 @@
     </ul>
 
   </div>
-<form class="sort">
-<fieldset>
-  <select name="sort" id="sort">
-    <option selected="selected">Sort</option>
-    <option value="price-high">Price: highest to lowest</option>
-    <option value="price-lo">Price: lowest to highest</option>
-    <option value="mew">New</option>
-    <option value="onSale">On sale</option>
-  </select>
-</fieldset>
-</form>
-  <!--<div class="filter-heading"><p>That Are:</p></div> -->
-  <div class="fieldset">
+
+  
+  <!--<div class="fieldset">
     <button type="button" class="button filter">Set</button>
     <button type="button" class="button filter">Unit</button>
     <button type="button" class="button filter">Both</button>
@@ -95,10 +101,7 @@
     <button type="button" class="button filter">Pattern</button>
     <button type="button" class="button filter">Both</button>
   </div>
-
-
-  <!--<div class="filter-heading"><p>In This Price Range:</p></div> -->
-
+      -->
   <div class="slidecontainer">
     <span>$1</span>
     <input type="range" min="1" max="1000" value="70" class="slider" id="myRange">
@@ -122,82 +125,17 @@
        (Colour, Pattern, Price, Set/Unit, Sale, New in)
        pages #, navigation
         -->
-    <div class="display-flex results">
-      <p>Results for "Dinnerware"</p>
+    <div class="display-flex">
       <span class="pages">
         <i class="arrow left"></i>
         <i class="arrow right"></i>
       </span>
     </div>
-    <div id="products">
 
-      <div class="wrapper-content">
-        <a> <img class="product-image top" src="img/product-1.jpg" alt="Kaloh Dinnerware Set - Turquoise">
+      <!--PRODUCTS-->
+    <div id="products"> </div>
 
-        </a>
-        <ul class="product">
-          <li class="item-name content-container">Kaloh Dinnerware Set - Turquoise</li>
-          <li class="price "><del>$56.00</del> </li>
-          <li class="special">Special<ins>$44.00</ins></li>
-        </ul>
-      </div>
-
-      <div class="wrapper-content">
-        <a> <img class="product-image" src="img/product-2.jpg" alt="Pastel Speckle Salad Plates (Set Of 4)">
-
-        </a>
-        <ul class="product">
-          <li class="item-name">Pastel Speckle Salad Plates (Set Of 4)</li>
-          <li class="price">$62.00</li>
-          <li class="new">New</li>
-        </ul>
-      </div>
-
-      <div class="wrapper-content">
-        <a> <img class="product-image" src="img/product-3.jpg" alt="Kaloh Dinnerware Set - Turquoise">
-
-        </a>
-        <ul class="product">
-          <li class="item-name">Kaloh Dinnerware Set - Turquoise</li>
-          <li class="price"><del>$56.00</del> </li>
-          <li class="special">Special<ins>$44.00</ins></li>
-        </ul>
-      </div>
-
-      <div class="wrapper-content">
-        <a> <img class="product-image" src="img/product-4.jpg" alt="Reactive Glaze Dinnerware Set - Bronze">
-
-        </a>
-
-        <ul class="product">
-          <li class="item-name">Reactive Glaze Dinnerware Set - Bronze</li>
-          <li class="price"><del>$56.00</del> </li>
-          <li class="special">Special<ins>$44.00</ins></li>
-        </ul>
-      </div>
-
-      <div class="wrapper-content">
-        <a> <img class="product-image" src="img/product-5.jpg" alt="40-Piece Gold Tableware Starter Set">
-        </a>
-        <ul class="product">
-          <li class="item-name">40-Piece Gold Tableware Starter Set</li>
-          <li class="price"><del>$56.00</del> </li>
-          <li class="special">Special<ins>$44.00</ins></li>
-        </ul>
-      </div>
-
-      <div class="wrapper-content">
-        <a> <img class="product-image" src="img/product-6.jpg" alt="Square Dinnerware (Set Of 4)">
-        </a>
-        <ul class="product">
-          <li class="item-name">Square Dinnerware (Set Of 4)</li>
-          <li class="price"><del>$24.00</del> </li>
-          <li class="special">Special<ins>$14.99</ins></li>
-        </ul>
-      </div>
-    </div>
     <div class="display-flex">
-
       <span class="pages">
         <i class="arrow left"></i>
         <i class="arrow right"></i>
@@ -246,6 +184,7 @@
 
 
   <script src="js/index.js"></script>
+
 </body>
 
 </html>
