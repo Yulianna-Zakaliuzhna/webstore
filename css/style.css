@@ -63,6 +63,7 @@ p {
 
 ul{
   padding: 0;
+  list-style-type: none;
 }
 
  li{
@@ -76,6 +77,9 @@ form {
   align-self: center;
   justify-self: center;
  margin-left: 2%;
+}
+.special{
+  color: #ea7186;
 }
 .content-container {
   align-self: center;
@@ -136,15 +140,10 @@ form {
 
 
 .wrapper-content {
- display: flex;
-flex-direction: column;
+
 flex-wrap: nowrap; 
 justify-content: space-around;
 align-items: center;
-}
-
-.wrapper-content> * {
-  flex: 1 100%;
 }
 
 .fieldset {
@@ -269,12 +268,10 @@ padding: .5em 0 .5em 2em;
   /* products */
 
 .product {
+  display: list-item;
   text-align: start; 
   padding: 4vw;
   margin: 5vw; }
-
-.special {
-  color: red;}
 
 .item-name{
 font-size: 1em; 
