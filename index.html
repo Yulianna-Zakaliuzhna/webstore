@@ -35,17 +35,17 @@
 
   <div class="wrapper">
       <ul class=" hs">
-      <li class="item"><button type="button" class="button  button-categories"><i
+      <li class="categories"><button type="button" class="button  button-categories"><i
             class="material-icons menu">room_service</button></i>Dinnerware</li>
-      <li class="item"><button type="button" class="button button-categories"><i
+      <li class="categories"><button type="button" class="button button-categories"><i
             class="material-icons menu">cake</button></i>Serveware</li>
-      <li class="item"><button type="button" class="button button-categories"><i
+      <li class="categories"><button type="button" class="button button-categories"><i
             class="material-icons menu">local_bar</button></i>Barware</li>
-      <li class="item"><button type="button" class="button button-categories"><i
+      <li class="categories"><button type="button" class="button button-categories"><i
             class="material-icons menu">local_cafe</button></i>Drinkware</li>
-      <li class="item"><button type="button" class="button button-categories"><i
+      <li class="categories"><button type="button" class="button button-categories"><i
             class="material-icons menu">local_dining</button></i>Kitchen</li>
-      <li class="item"><button type="button" class="button button-categories"><i
+      <li class="categories"><button type="button" class="button button-categories"><i
             class="material-icons menu">local_offer</button></i>Sale</li>
     </ul>
   </div>
@@ -55,35 +55,19 @@
 
 
 
-  <div class="sort-filter">
-    <form class="sort">
-      <fieldset>
-        <select name="sort" id="sort">
+    <div class="sort-filter">
+      <form>  
+        <select name="sort" id="sort" class="sort">
           <option selected="selected">Sort</option>
           <option value="price-high">Price: highest to lowest</option>
-          <option value="price-lo">Price: lowest to highest</option>
-          <option value="mew">New</option>
+          <option value="price-low">Price: lowest to highest</option>
+          <option value="new">New</option>
           <option value="onSale">On sale</option>
-        </select>
-      </fieldset>
-    </form>
-  <div class="reset"></div>
-    <fieldset class="filter-colour">
-     
-        
-        
-          <p><i class="arrow down"></i></p>
-          <select name="filter menu" id="filter menu">
-              <option value="selected"></option>
-              <option value="sold in unit">sold in unit</option>
-              <option value="sold in unit">sold in set</option>
-              <option value="sold in unit">Solid Colour</option>
-              <option value="sold in unit">On Sale</option>
-              <option value="sold in unit">New In</option>            
-            </select>
-        </div>
-        </form>
-    </div>
+        </select>   
+        <p class="dropdown-filter"><i class="arrow down"></i> 
+        </p>
+      </form>    
+  </div>
 
   <!--categories-->
  
@@ -123,13 +107,13 @@
         Dropdown menu, 
        (Colour, Pattern, Price, Set/Unit, Sale, New in)
        pages #, navigation
-        -->
+       
     <div class="display-flex">
       <span class="pages">
         <i class="arrow left"></i>
         <i class="arrow right"></i>
       </span>
-    </div>
+    </div> -->
 
       <!--PRODUCTS-->
     <div id="products"> </div>
@@ -164,9 +148,9 @@
     </div>
 
     <div class="copyright">
-      <a href="#" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-twitter"></a>
-      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="social-media facebook"></a>
+      <a href="#" class="social-media twitter"></a>
+      <a href="#" class="social-media instagram"></a>
     </div>
 
     <div class="copyright">
@@ -174,9 +158,9 @@
     </div>
 
     <div class="copyright bottom-row">
-      <p class="inline" href="#">Terms of Use</p>
-      <p class="inline" href="#">Privacy Policy</p>
-      <p class="inline" href="#">Accessibility Policy</p>
+      <p href="#">Terms of Use</p>
+      <p href="#">Privacy Policy</p>
+      <p href="#">Accessibility Policy</p>
     </div>
 
   </footer>

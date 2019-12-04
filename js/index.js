@@ -79,7 +79,7 @@ function getProductsAsHtmlString(products) {
                 <li class="special">Special<ins >${products.price * products.discountPercent}</ins></li>
                 <li class="color">${products.color}</li>
                 <li class="set">${products.isSoldInSets}</li>
-                <li class="add"><button class="buttons" id="addToCart-${products.id}">Add</button></li>
+                <li class="add"><button class="button" id="addToCart-${products.id}">Add</button></li>
               </ul>
           
            </div>`;
