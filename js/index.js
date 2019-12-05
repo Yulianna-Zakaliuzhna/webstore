@@ -74,21 +74,16 @@ function getProductsAsHtmlString(products) {
   return `<div class= "wrapper-content" >   
             <a><img class="product-image top" src="${products.logo}" alt="${products.name}"> </a>
               <ul class="product">
-                <li class="item-name content-container"> ${products.name} </li>
+                <li class="item-name"> ${products.name} </li>
                 <li class="price"><del>${products.price}</del> </li>
-                <li class="special">Special<ins >${products.price * products.discountPercent}</ins></li>
+                <li class="special"><ins >${products.price * products.discountPercent}</ins></li>
                 <li class="color">${products.color}</li>
                 <li class="set">${products.isSoldInSets}</li>
-                <li class="add"><button class="buttons" id="addToCart-${products.id}">Add</button></li>
+                <li class="add"><button class="buttons button" id="addToCart-${products.id}">Add</button></li>
               </ul>
           
            </div>`;
 }
-
-
-
-
-
 
 
 function renderProducts(arr) {

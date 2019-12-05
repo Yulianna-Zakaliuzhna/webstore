@@ -224,16 +224,25 @@ buttons: categories, add
   margin: 0 auto;
   }
 .product {
-  display: list-item;
+  display: flex;
+  flex-direction: column;
   text-align: start; 
   padding: 4vw;
-  margin: 5vw; }
+  margin: 5vw;
+ }
+
 
 .item-name{
 font-size: 1em; 
-display:list-item;
+display:inline-block;
 }
+.price {
+  display: inline-block;
 
+}
+del {
+  text-decoration: none;
+}
 
  /* 
  /////////////FOOTER
