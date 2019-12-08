@@ -314,9 +314,23 @@ function checkPriceRange(event) {
 
   console.log(low, high);
 
+var filteredProducts =[];
+for (var i=0;i<products.length; i++){
+if (products[i].discountPercent==1){
+  if (products[i].price>=low && products[i].price<==high){
+    filteredProducts.push(products[i]);
+  }
+} else{
+  console.log((products[i].price * products.discountPercent) <= high);
+  if((products[i].price*products[i].discountPercent)>==low&&
+  (products[i].price*products[i].discountPercent) <= high) {
+    console.log(products[i].price * products[i].discountPercent)
+    filteredProducts.push(products[i]);
+      }
+    }
+  }
+renderProducts(filteredProducts);
   /// Filter by two criteria
-
-
 }
 
 
@@ -328,8 +342,6 @@ $(document).ready(function() {
   document.querySelectorAll('.slider').forEach(slider => slider.addEventListener('change', checkPriceRange))
 
 })
-
-
 
 renderProducts(products);
 
