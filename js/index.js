@@ -63,7 +63,202 @@ const products = [
     isSoldInSets: `Sold in sets of 4 only`,
     logo: `img/product-5.jpg`,
     color: `solid`
-  }
+  },
+  {
+    id: 6,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 7,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 8,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 9,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 10,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 11,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 12,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 13,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 14,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 15,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 16,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 17,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 18,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 19,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
+  {
+    id: 20,
+    name: `Square Dinnerware (Set Of 4)`,
+    code: `DNR05`,
+    unitsInStock: 93,
+    price: 84,
+    discountPercent: 1,
+    category: `Dinnerware`,
+    isNewItem: `New Item`,
+    isSoldInSets: `Sold in sets of 4 only`,
+    logo: `img/product-5.jpg`,
+    color: `solid`
+  },
 ]
 
 //consider 
@@ -75,8 +270,7 @@ function getProductsAsHtmlString(products) {
             <a><img class="product-image top" src="${products.logo}" alt="${products.name}"> </a>
               <ul class="product">
                 <li class="item-name"> ${products.name} </li>
-                <li class="price"><del>${products.price}</del> </li>
-                <li class="special"><ins >${products.price * products.discountPercent}</ins></li>
+                <li class="price">$ ${products.discountPercent  != 1 ? '<s>' + products.price + '</s>&nbsp;<span class="special">(-' + ((1 - products.discountPercent) * 100).toFixed(0) + '%)&nbsp;' + products.price * products.discountPercent : products.price}</li>
                 <li class="color">${products.color}</li>
                 <li class="set">${products.isSoldInSets}</li>
                 <li class="add"><button class="buttons button" id="addToCart-${products.id}">Add</button></li>
