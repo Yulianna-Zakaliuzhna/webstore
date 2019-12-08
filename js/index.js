@@ -317,12 +317,12 @@ function checkPriceRange(event) {
 var filteredProducts =[];
 for (var i=0;i<products.length; i++){
 if (products[i].discountPercent==1){
-  if (products[i].price>=low && products[i].price<==high){
+  if (products[i].price>=low && products[i].price<=high){
     filteredProducts.push(products[i]);
   }
 } else{
   console.log((products[i].price * products.discountPercent) <= high);
-  if((products[i].price*products[i].discountPercent)>==low&&
+  if((products[i].price*products[i].discountPercent)>=low&&
   (products[i].price*products[i].discountPercent) <= high) {
     console.log(products[i].price * products[i].discountPercent)
     filteredProducts.push(products[i]);
