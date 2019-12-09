@@ -1,21 +1,6 @@
 /***font imports***/ 
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap'); /*heading font*/
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap'); /* paragraph font*/
-html {
-  --text:#322F30;
-  --primary-a: #1C3958;
-  --primary-b: #B08E62;
-  --secondary-a: rgba(135, 165, 197, 0.76);
-  --secondary-b:rgb(231, 208, 177);
-  --background: rgb(235, 218, 198);
-  --error: #ea7186;
-  
-  /*** Foreground colour***/
-
-  --on-primary: 
-  --on-secondary:
-  
-}
 
 body {
   color: #322F30;
