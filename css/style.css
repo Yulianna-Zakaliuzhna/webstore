@@ -195,6 +195,10 @@ buttons: categories, add
   text-decoration: none;
   margin: 5px ;
  }
+ .bag {
+   background-color: rgb(22, 21, 21);
+   color: rgb(253, 239, 216);
+ }
 
 .arrow {
   border: solid #666;

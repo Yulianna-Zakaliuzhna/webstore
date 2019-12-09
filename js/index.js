@@ -295,7 +295,7 @@ function getProductsAsHtmlString(products) {
                 <li class="price">$ ${products.discountPercent  != 1 ? '<s>' + products.price + '</s>&nbsp;<span class="special">(-' + ((1 - products.discountPercent) * 100).toFixed(0) + '%)&nbsp;' + products.price * products.discountPercent : products.price}</li>
                 <li class="color">${products.color}</li>
                 <li class="set">${products.isSoldInSets}</li>
-                <li class="add"><button class="buttons button" id="addToCart-${products.id}">Add</button></li>
+                <li class="add"><button class="button bag" id="addToCart-${products.id}">Add to Cart</button></li>
               </ul>
           
            </div>`;
