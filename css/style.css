@@ -160,10 +160,11 @@ form {
   margin: 0 7% ; 
 }
 
-.dropdown-filter {
+.dropdown-icon {
   justify-self: center;
   align-self: center;
 }
+
 
 .slidecontainer {
   width: 90%;

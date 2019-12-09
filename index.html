@@ -56,10 +56,19 @@
           <option value="price-high">Price: highest to lowest</option>
           <option value="price-low">Price: lowest to highest</option>
         </select>   
-        <p class="dropdown-filter"><i class="arrow down"></i> 
-        </p>
-      </form>    
-  </div>
+         <select name="filter" id="filter" class="dropdown-filter">
+          <option selected="Colour-pattern">Colour-Pattern</option>
+          <option value="Colour-pattern">Colour-Pattern</option>
+          <option value="Colour-solid">Colour-Solid</option>
+          <option value="Sold-In-Sets-Only">Sold In Sets Only</option>
+          <option value="Sold-separately">Sold Separately</option>
+          <option value="New">New</option>
+          <option value="On-Sale">On Sale</option>
+        </select>
+      </form>
+    </div>
+ 
+
 
   <div class="slidecontainer">
     <span>$1</span>
@@ -73,18 +82,6 @@
   </div>
 
   <main id="page" class="site-page" role="main">
-
-    <!-- Filter button
-        Dropdown menu, 
-       (Colour, Pattern, Price, Set/Unit, Sale, New in)
-       pages #, navigation
-       
-    <div class="display-flex">
-      <span class="pages">
-        <i class="arrow left"></i>
-        <i class="arrow right"></i>
-      </span>
-    </div> -->
 
       <!--PRODUCTS-->
     <div id="products"> </div>
