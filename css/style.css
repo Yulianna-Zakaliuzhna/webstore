@@ -1,3 +1,6 @@
+/***font imports***/ 
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap'); /*heading font*/
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap'); /* paragraph font*/
 html {
   --text:#322F30;
   --primary-a: #1C3958;
@@ -12,13 +15,11 @@ html {
   --on-primary: 
   --on-secondary:
   
-  }
-
-
+}
 
 body {
   color: #322F30;
-  font-family: 'roboto condensed', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   line-height: 1.25em;
   letter-spacing: 0em;
@@ -41,11 +42,6 @@ body {
 
 h1 {
  font-family: 'lato', sans-serif;
-}
-h2 {
-  text-align: left;
-  margin-bottom: 30px;
-  margin-top: 0;
 }
 
 p {
@@ -144,7 +140,7 @@ ul{
   color: #666;
 }
 
-//*
+/*
 //FILTERING // SORTING
 */
 .sort-filter {
@@ -229,12 +225,18 @@ buttons: categories, add
   text-align: start; 
   padding: 4vw;
   margin: 5vw;
+  margin-top: 0;
  }
 
 
 .item-name{
-font-size: 1em; 
-display:inline-block;
+font-size: 1.5em;
+font-family: inherit;
+font-weight: 800;
+line-height: 1em;
+text-align: center;
+margin-bottom: 5%;
+margin-top: 0;
 }
 .price {
   display: inline-block;
@@ -350,3 +352,4 @@ color: white;
   .wrapper-content > div {
     flex: 1;
   }
+}
