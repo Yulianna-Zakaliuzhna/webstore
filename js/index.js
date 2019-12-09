@@ -280,14 +280,13 @@ const products = [
     color: `solid`
   },
 ]
-var numOfItems = 20;
+var numOfItems = 5;
 var currentProducts = products.slice(0,numOfItems);
 
 
 //consider 
 
 function getProductsAsHtmlString(products) {
-
 
   return `<div class= "wrapper-content" >   
             <a><img class="product-image top" src="${products.logo}" alt="${products.name}"> </a>
@@ -362,11 +361,23 @@ $(document).ready(function() {
     addItemsToCart(1);
   })
 
+  $("#loadMore").click(() =>{
+    if (numOfItems != 15){
+      numOfItems += 5;
+      currentProducts = products.slice(0,numOfItems)
+      renderProducts(currentProducts);
+      }
+    if(numOfItems == 15){
+      $("#loadMore").css("visibility", "hidden");
+    }
+    })
+
+
   document.querySelectorAll('.slider').forEach(slider => slider.addEventListener('change', checkPriceRange))
 
 })
 
-renderProducts(products);
+renderProducts(products.slice(0,numOfItems));
 
 
 

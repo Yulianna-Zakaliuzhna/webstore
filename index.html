@@ -52,54 +52,28 @@
 
 
 
-
-
-
     <div class="sort-filter">
       <form>  
         <select name="sort" id="sort" class="sort">
           <option selected="selected">Sort</option>
           <option value="price-high">Price: highest to lowest</option>
           <option value="price-low">Price: lowest to highest</option>
-          <option value="new">New</option>
-          <option value="onSale">On sale</option>
         </select>   
         <p class="dropdown-filter"><i class="arrow down"></i> 
         </p>
       </form>    
   </div>
 
-  <!--categories-->
- 
-
-
-  
-  <!--<div class="fieldset">
-    <button type="button" class="button filter">Set</button>
-    <button type="button" class="button filter">Unit</button>
-    <button type="button" class="button filter">Both</button>
-  </div>
-  <div class="fieldset">
-    <button type="button" class="button filter">Colour</button>
-    <button type="button" class="button filter">Pattern</button>
-    <button type="button" class="button filter">Both</button>
-  </div>
-      -->
   <div class="slidecontainer">
     <span>$1</span>
-    <input type="range" min="1" max="250" value="70" class="slider" id="slidePriceLow">
-    <span>$250</span>
+    <input type="range" min="1" max="150" value="70" class="slider" id="slidePriceLow">
+    <span>$150</span>
   </div>
   <div class="slidecontainer">
-    <span>$250</span>
-    <input type="range" min="250" max="500" value="590" class="slider" id="slidePriceHigh">
-    <span>$500</span>
+    <span>$100</span>
+    <input type="range" min="100" max="450" value="215" class="slider" id="slidePriceHigh">
+    <span>$450</span>
   </div>
-  <!-- Search for a product (non-functional) -->
-
-
-
-
 
   <main id="page" class="site-page" role="main">
 
@@ -125,14 +99,14 @@
       </span>
     </div>
 
-
+    <input type="button" id="loadMore" value="Load More" />
 
   </main>
 
 
-  <input type="button" id="loadMore" value="Load More" />
+  
   <footer class="bottom-info site-page" id="footer" role="contentinfo">
-
+   
     <!--linked pages: Contact, About, Blog-->
 
     <div class="grouped">
