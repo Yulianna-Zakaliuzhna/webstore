@@ -2,8 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap'); /*heading font*/
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap'); /* paragraph font*/
 
+:root {
+  --gutter: 0em;
+  --col-a: #322F30;
+}
+
+
+
 body {
-  color: #322F30;
+  color: var(--col-a);
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 400;
   line-height: 1.25em;
@@ -168,7 +175,7 @@ form {
   transition: opacity .2s;
 }
 /*
-buttons: categories, add
+: categories, add
 */
 
 .button:hover {
@@ -181,9 +188,19 @@ buttons: categories, add
   text-decoration: none;
   margin: 5px ;
  }
- .bag {
+ .buttons {
    background-color: rgb(22, 21, 21);
    color: rgb(253, 239, 216);
+   display: block;
+   width: 100%;
+   height: ;
+   border: none;
+  margin-top: 5px;
+   padding: 5px 28px;
+   font-size: 16px;
+   cursor: pointer;
+   text-align: center;
+
  }
 
 .arrow {
@@ -216,6 +233,8 @@ buttons: categories, add
   padding: 4vw;
   margin: 5vw;
   margin-top: 0;
+  margin-bottom: 30px;
+  border-bottom: #322F30;
  }
 
 
@@ -235,6 +254,7 @@ margin-top: 0;
 del {
   text-decoration: none;
 }
+
 
  /* 
  /////////////FOOTER

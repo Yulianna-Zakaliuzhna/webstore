@@ -7,8 +7,8 @@ const products = [
     price: 56,
     discountPercent: 0.85,
     category: `Dinnerware`,
-    isNewItem: `null`,
-    isOnSale:`yes`,
+    isNewItem: `false`,
+    isOnSale:`true`,
     isSoldInSets: `Sold in set of 3 only`,
     logo: `img/product-1.jpg`,
     color: `solid colour`
@@ -21,8 +21,8 @@ const products = [
     price: 23,
     discountPercent: 1,
     category: `Dinnerware`,
-    isNewItem: `New Item`,
-    isOnSale:`null`,
+    isNewItem: `true`,
+    isOnSale:`false`,
     isSoldInSets: `Sold separately`,
     logo: `img/product-2.jpg`,
     color: `geometry pattern`
@@ -35,8 +35,8 @@ const products = [
     price: 43 ,
     discountPercent: 0.85,
     category: `Dinnerware`,
-    isNewItem: `null`,
-    isOnSale:`yes`,
+    isNewItem: `false`,
+    isOnSale:`true`,
     isSoldInSets: `Sold in set of 2 only`,
     logo: `img/product-3.jpg`,
     color: `solid colour`
@@ -49,8 +49,8 @@ const products = [
     price: 39,
     discountPercent: 0.9,
     category: `Dinnerware`,
-    isNewItem: `null`,
-    isOnSale:`yes`,
+    isNewItem: `false`,
+    isOnSale:`true`,
     isSoldInSets: `sold separately`,
     logo: `img/product-4.jpg`,
     color: `solid colour`
@@ -63,8 +63,8 @@ const products = [
     price: 179.99,
     discountPercent: 1,
     category: `Dinnerware`,
-    isNewItem: `New Item`,
-    isOnSale:`null`,
+    isNewItem: `true`,
+    isOnSale:`false`,
     isSoldInSets: `Sold in sets of 40 only`,
     logo: `img/product-5.jpg`,
     color: `solid colour`
@@ -77,8 +77,8 @@ const products = [
     price: 60,
     discountPercent: 1,
     category: `Dinnerware`,
-    isNewItem: `New Item`,
-    isOnSale:`null`,
+    isNewItem: `true`,
+    isOnSale:`false`,
     isSoldInSets: `Sold in sets of 4 only`,
     logo: `img/product-6.jpg`,
     color: `solid colour`
@@ -91,8 +91,8 @@ const products = [
     price: 99.99,
     discountPercent: .7,
     category: `Dinnerware`,
-    isNewItem: `null`,
-    isOnSale:`yes`,
+    isNewItem: `false`,
+    isOnSale:`true`,
     isSoldInSets: `Sold in sets of 16 only`,
     logo: `img/product-7.jpg`,
     color: `solid colour`
@@ -105,7 +105,7 @@ const products = [
     price: 99,
     discountPercent: .5,
     category: `Dinnerware`,
-    isNewItem: `New Item`,
+    isNewItem: `true`,
     isOnSale:`yes`,
     isSoldInSets: `Sold in sets of 16 only`,
     logo: `img/product-8.jpg`,
@@ -119,7 +119,7 @@ const products = [
     price: 450,
     discountPercent: .5,
     category: `Dinnerware`,
-    isNewItem: `null`,
+    isNewItem: `true`,
     isOnSale:`yes`,
     isSoldInSets: `Sold in sets of 40 only`,
     logo: `img/product-9.jpg`,
@@ -133,8 +133,8 @@ const products = [
     price: 86.99,
     discountPercent: 1,
     category: `Dinnerware`,
-    isNewItem: `New Item`,
-    isOnSale:`null`,
+    isNewItem: `true`,
+    isOnSale:`false`,
     isSoldInSets: `Sold separately`,
     logo: `img/product-10.jpg`,
     color: `solid colour`
@@ -147,8 +147,8 @@ const products = [
     price: 122.99,
     discountPercent: 1,
     category: `Dinnerware`,
-    isNewItem: `New Item`,
-    isOnSale:`null`,
+    isNewItem: `true`,
+    isOnSale:`false`,
     isSoldInSets: `Sold in sets of 6 only`,
     logo: `img/product-11.jpg`,
     color: `solid colour`
@@ -161,8 +161,8 @@ const products = [
     price: 210,
     discountPercent: .6,
     category: `Dinnerware`,
-    isNewItem: `null`,
-    isOnSale:`yes`,
+    isNewItem: `false`,
+    isOnSale:`true`,
     isSoldInSets: `Sold in sets of 16 only`,
     logo: `img/product-12.jpg`,
     color: `solid colour`
@@ -175,8 +175,8 @@ const products = [
     price: 119,
     discountPercent: .75,
     category: `Dinnerware`,
-    isNewItem: `null`,
-    isOnSale:`yes`,
+    isNewItem: `false`,
+    isOnSale:`true`,
     isSoldInSets: `Sold in set of 12 only`,
     logo: `img/product-13.jpg`,
     color: `dotted pattern`
@@ -189,8 +189,8 @@ const products = [
     price: 7.99,
     discountPercent: 1,
     category: `Dinnerware`,
-    isNewItem: `New Item`,
-    isOnSale:`null`,
+    isNewItem: `true`,
+    isOnSale:`false`,
     isSoldInSets: `Sold separately`,
     logo: `img/product-14.jpg`,
     color: `solid colour`
@@ -203,8 +203,8 @@ const products = [
     price: 99.9,
     discountPercent: .69,
     category: `Dinnerware`,
-    isNewItem: `New Item`,
-    isOnSale:`yes`,
+    isNewItem: `true`,
+    isOnSale:`true`,
     isSoldInSets: `Sold separately`,
     logo: `img/product-15.jpg`,
     color: `solid`
@@ -217,8 +217,8 @@ const products = [
     price: 59.99,
     discountPercent: 1,
     category: `Dinnerware`,
-    isNewItem: `New Item`,
-    isOnSale:`null`,
+    isNewItem: `true`,
+    isOnSale:`false`,
     isSoldInSets: `Sold in sets of 16 only`,
     logo: `img/product-16.jpg`,
     color: `marble pattern`
@@ -231,8 +231,8 @@ const products = [
     price: 69,
     discountPercent: .57971,
     category: `Dinnerware`,
-    isNewItem: `null`,
-    isOnSale:`yes`,
+    isNewItem: `false`,
+    isOnSale:`true`,
     isSoldInSets: `Sold in sets of 16 only`,
     logo: `img/product-17.jpg`,
     color: `solid colour`
@@ -245,8 +245,8 @@ const products = [
     price: 14.99,
     discountPercent: 1,
     category: `Dinnerware`,
-    isNewItem: `New Item`,
-    isOnSale:`no`,
+    isNewItem: `true`,
+    isOnSale:`false`,
     isSoldInSets: `Sold separately`,
     logo: `img/product-18.jpg`,
     color: `solid colour`
@@ -259,8 +259,8 @@ const products = [
     price: 32,
     discountPercent: 1,
     category: `Dinnerware`,
-    isNewItem: `New Item`,
-    isOnSale:`null`,
+    isNewItem: `true`,
+    isOnSale:`false`,
     isSoldInSets: `Sold separately`,
     logo: `img/product-19.jpg`,
     color: `solid colour`
@@ -273,8 +273,8 @@ const products = [
     price: 25,
     discountPercent: .65,
     category: `Dinnerware`,
-    isNewItem: `New Item`,
-    isOnSale:`yes`,
+    isNewItem: `true`,
+    isOnSale:`true`,
     isSoldInSets: `Sold separately`,
     logo: `img/product-20.jpg`,
     color: `solid`
@@ -295,7 +295,7 @@ function getProductsAsHtmlString(products) {
                 <li class="price">$ ${products.discountPercent  != 1 ? '<s>' + products.price + '</s>&nbsp;<span class="special">(-' + ((1 - products.discountPercent) * 100).toFixed(0) + '%)&nbsp;' + products.price * products.discountPercent : products.price}</li>
                 <li class="color">${products.color}</li>
                 <li class="set">${products.isSoldInSets}</li>
-                <li class="add"><button class="buttons bag" id="addToCart-${products.id}">Add to Cart</button></li>
+                <li class="add"><button class="buttons" id="addToCart-${products.id}">Add to Cart</button></li>
               </ul>
           
            </div>`;
